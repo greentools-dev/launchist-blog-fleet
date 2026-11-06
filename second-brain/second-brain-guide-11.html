@@ -19,7 +19,7 @@
     .prose strong { color: #111110; }
     .prose h2 { scroll-margin-top: 5rem; }
     .prose h3 { scroll-margin-top: 5rem; }
-    .toc-active { color: #1A362B !important; font-weight: 700 !important; border-left-color: #1A362B !important; }
+    .toc-active { color: #1A362B !important; font-weight: 700 !important; border-left-color: #1A362B !important; background-color: #F4F3F0; }
   </style>
 
   <!-- Structured Data JSON-LD (@graph: BlogPosting + FAQPage + Breadcrumbs) -->
@@ -49,7 +49,7 @@
       },
       {
         "@type": "FAQPage",
-        "mainEntity": [{"@type": "Question", "name": "How does this operational architecture integrate with mobile devices and on-the-go capture?", "acceptedAnswer": {"@type": "Answer", "text": "The Second Brain & 2027 Life OS is designed with a dedicated mobile-first intake cockpit. Using Notion iOS/Android widgets and quick-capture shortcuts, you can record fleeting ideas, transaction milestones, or urgent action items in under 5 seconds without waiting for heavy desktop dashboards to load. The system processes and reconciles these entries asynchronously upon your next scheduled desktop sweep."}}, {"@type": "Question", "name": "What is the primary failure mode operators experience when implementing this protocol, and how do I avoid it?", "acceptedAnswer": {"@type": "Answer", "text": "The most common failure mode is over-engineering: attempting to build complex multi-layered formula relations and rigid daily schedules before establishing consistent baseline capture habits. To avoid this, deploy the out-of-the-box pre-configured architecture, adhere strictly to the 5-Stage Implementation Protocol outlined in this guide, and resist adding custom complexity until the system has operated reliably for at least 30 consecutive days."}}, {"@type": "Question", "name": "How much dedicated time is required to maintain and audit this system each week?", "acceptedAnswer": {"@type": "Answer", "text": "The system is engineered to consume less than 20 minutes per day in tactical processing, combined with a single 30-minute Sunday retrospective sweep. By automating rollup calculations, status filters, and historical deprecation, the operational overhead is reduced by over 80% compared to manual spreadsheet maintenance or fragmented project management software."}}, {"@type": "Question", "name": "Can this architecture scale from a solo operator to a multi-member collaborative team?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The underlying relational schema in Second Brain & 2027 Life OS decouples private administrative workspaces from public client/collaborator views. You can safely invite contractors, clients, or team members to isolated portal boards without exposing master financial ledgers, private journals, or broader company strategy archives."}}]
+        "mainEntity": [{"@type": "Question", "name": "How does this Second Brain workspace differ from traditional PARA or Zettelkasten templates?", "acceptedAnswer": {"@type": "Answer", "text": "Standard templates frequently suffer from bloated complexity, fragile formulas, and sluggish loading times. The Second Brain & 2027 Life OS is architected using modern Notion Formulas 2.0 rollups, normalized relational databases, and minimalist page structures. It balances high-altitude quarterly vision mapping with daily execution cockpits, eliminating the cognitive friction that leads to system abandonment."}}, {"@type": "Question", "name": "Will my Notion workspace slow down as my knowledge base grows to thousands of notes?", "acceptedAnswer": {"@type": "Answer", "text": "Sluggish Notion performance is almost always caused by deeply nested relations, un-indexed rollups, and un-archived historical records. This operating system solves performance bottlenecks by isolating active sprints from the cold storage archive and leveraging lightweight view filters, ensuring sub-second rendering speeds even as your repository expands over years of use."}}, {"@type": "Question", "name": "How do I migrate my legacy notes from Evernote, Apple Notes, or Obsidian into this system?", "acceptedAnswer": {"@type": "Answer", "text": "Avoid manual copy-pasting. Export your existing notes to CSV or markdown, process the files through our zero-server Notion CSV Cleaner to format UTF-8 characters and dates, and import the database into an isolated 'Legacy Vault'. From there, migrate and synthesize only the active assets that directly support your current quarterly objectives."}}, {"@type": "Question", "name": "How much dedicated time is required to maintain this architecture on an ongoing basis?", "acceptedAnswer": {"@type": "Answer", "text": "Routine daily capture requires under two minutes total, thanks to quick-capture shortcuts. The primary maintenance investment is the 30-minute Sunday review cadence, where you triage raw inbox items, distill reading notes, and review project progress rollups. By automating velocity calculations, administrative overhead is reduced by over 80%."}}]
       },
       {
         "@type": "BreadcrumbList",
@@ -114,9 +114,9 @@
       <span>&bull;</span>
       <span>Part 11 of 60</span>
       <span>&bull;</span>
-      <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3.5 h-3.5"></i> 11 Min Read</span>
+      <span class="flex items-center gap-1"><i data-lucide="clock" class="w-3.5 h-3.5"></i> 10 Min Read</span>
       <span>&bull;</span>
-      <span>2,150 Words</span>
+      <span>2,021 Words</span>
     </div>
 
     <!-- Main Article Headline -->
@@ -130,7 +130,7 @@
 
     <!-- Curated Hero Image -->
     <div class="rounded-2xl overflow-hidden border border-[#EAE8E3] mb-10 shadow-sm bg-[#F4F3F0]">
-      <img src="https://pixabay.com/get/gec461d2748fafb2055ef98dd151428e79ea9413c536ee3f49c4350253d71da4f452f08948ed6ef582872aca9daf2a3ad9a09c223a4abdb7e66f129cf42758aca_1280.jpg" alt="Information Intake Funnels: Second Brain & Knowledge Architecture (Part 11)" class="w-full aspect-[16/9] object-cover">
+      <img src="https://pixabay.com/get/gec461d2748fafb2055ef98dd151428e79ea9413c536ee3f49c4350253d71da4f452f08948ed6ef582872aca9daf2a3ad9a09c223a4abdb7e66f129cf42758aca_1280.jpg" alt="Information Intake Funnels: Second Brain & Knowledge Architecture (Part 11)" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&fit=crop&w=1200&q=80';" class="w-full aspect-[16/9] object-cover">
       <div class="p-3 bg-[#F4F3F0] border-t border-[#EAE8E3] text-[11px] text-[#76746E] flex items-center justify-between">
         <span>Curated Workspace Visual &bull; Architectural Field Series</span>
         <span>Launchist Systems Studio</span>
@@ -156,7 +156,7 @@
         </div>
         <div class="flex items-start gap-2">
           <i data-lucide="check-circle-2" class="w-4 h-4 text-[#1A362B] shrink-0 mt-0.5"></i>
-          <span><strong>Relational Context:</strong> Never record a task row in isolation; connect every action to a master objective or revenue pipeline.</span>
+          <span><strong>Relational Context:</strong> Never record an action row in isolation; connect every task to a master objective or revenue pipeline.</span>
         </div>
         <div class="flex items-start gap-2">
           <i data-lucide="check-circle-2" class="w-4 h-4 text-[#1A362B] shrink-0 mt-0.5"></i>
@@ -169,6 +169,25 @@
       </div>
     </section>
 
+    <!-- Mobile Collapsible Table of Contents (< lg screens) -->
+    <div class="lg:hidden mb-8">
+      <details class="group rounded-2xl border border-[#EAE8E3] bg-[#FFFFFF] p-4 transition [&_summary::-webkit-details-marker]:hidden">
+        <summary class="flex cursor-pointer items-center justify-between gap-1.5 text-[#111110] font-bold text-xs uppercase tracking-wider">
+          <span class="flex items-center gap-2"><i data-lucide="list" class="w-4 h-4 text-[#1A362B]"></i> Table of Contents</span>
+          <i data-lucide="chevron-down" class="w-4 h-4 transition group-open:-rotate-180"></i>
+        </summary>
+        <nav class="mt-3 pt-3 border-t border-[#EAE8E3] space-y-2 text-xs">
+          <a href="#problem-analysis" class="block text-[#76746E] hover:text-[#111110]">1. The Systemic Bottleneck</a>
+          <a href="#first-principles" class="block text-[#76746E] hover:text-[#111110]">2. Operational First Principles</a>
+          <a href="#implementation-protocol" class="block text-[#76746E] hover:text-[#111110]">3. 5-Stage Implementation Protocol</a>
+          <a href="#comparative-matrix" class="block text-[#76746E] hover:text-[#111110]">4. Comparative Breakdown Matrix</a>
+          <a href="#tool-sandbox" class="block text-[#76746E] hover:text-[#111110]">5. Zero-Server Tool Sandbox</a>
+          <a href="#notion-os-deployment" class="block text-[#76746E] hover:text-[#111110]">6. Launchist OS Deployment</a>
+          <a href="#frequently-asked-questions" class="block text-[#76746E] hover:text-[#111110]">7. Frequently Asked Questions</a>
+        </nav>
+      </details>
+    </div>
+
     <!-- Two-Column Editorial Layout: Sticky TOC + Prose Content -->
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
       
@@ -180,13 +199,13 @@
               <i data-lucide="list" class="w-3.5 h-3.5"></i> Table of Contents
             </p>
             <nav id="toc-nav" class="space-y-1 text-xs">
-              <a href="#problem-analysis" class="toc-link block py-1.5 pl-3 border-l-2 border-transparent text-[#76746E] hover:text-[#111110] transition">1. The Systemic Bottleneck</a>
-              <a href="#first-principles" class="toc-link block py-1.5 pl-3 border-l-2 border-transparent text-[#76746E] hover:text-[#111110] transition">2. Operational First Principles</a>
-              <a href="#implementation-protocol" class="toc-link block py-1.5 pl-3 border-l-2 border-transparent text-[#76746E] hover:text-[#111110] transition">3. 5-Stage Implementation Protocol</a>
-              <a href="#comparative-matrix" class="toc-link block py-1.5 pl-3 border-l-2 border-transparent text-[#76746E] hover:text-[#111110] transition">4. Comparative Breakdown Matrix</a>
-              <a href="#tool-sandbox" class="toc-link block py-1.5 pl-3 border-l-2 border-transparent text-[#76746E] hover:text-[#111110] transition">5. Zero-Server Tool Sandbox</a>
-              <a href="#notion-os-deployment" class="toc-link block py-1.5 pl-3 border-l-2 border-transparent text-[#76746E] hover:text-[#111110] transition">6. Launchist OS Deployment</a>
-              <a href="#frequently-asked-questions" class="toc-link block py-1.5 pl-3 border-l-2 border-transparent text-[#76746E] hover:text-[#111110] transition">7. Frequently Asked Questions</a>
+              <a href="#problem-analysis" class="toc-link block py-1.5 pl-3 border-l-2 border-transparent text-[#76746E] hover:text-[#111110] transition rounded-r">1. The Systemic Bottleneck</a>
+              <a href="#first-principles" class="toc-link block py-1.5 pl-3 border-l-2 border-transparent text-[#76746E] hover:text-[#111110] transition rounded-r">2. Operational First Principles</a>
+              <a href="#implementation-protocol" class="toc-link block py-1.5 pl-3 border-l-2 border-transparent text-[#76746E] hover:text-[#111110] transition rounded-r">3. 5-Stage Implementation Protocol</a>
+              <a href="#comparative-matrix" class="toc-link block py-1.5 pl-3 border-l-2 border-transparent text-[#76746E] hover:text-[#111110] transition rounded-r">4. Comparative Breakdown Matrix</a>
+              <a href="#tool-sandbox" class="toc-link block py-1.5 pl-3 border-l-2 border-transparent text-[#76746E] hover:text-[#111110] transition rounded-r">5. Zero-Server Tool Sandbox</a>
+              <a href="#notion-os-deployment" class="toc-link block py-1.5 pl-3 border-l-2 border-transparent text-[#76746E] hover:text-[#111110] transition rounded-r">6. Launchist OS Deployment</a>
+              <a href="#frequently-asked-questions" class="toc-link block py-1.5 pl-3 border-l-2 border-transparent text-[#76746E] hover:text-[#111110] transition rounded-r">7. Frequently Asked Questions</a>
             </nav>
           </div>
 
@@ -211,19 +230,29 @@
         </h2>
         
         <p>
-          Every ambitious knowledge worker, media creator, and digital entrepreneur eventually encounters an invisible, paralyzing ceiling: the cognitive saturation point. When an operational system relies on human memory, fragmented sticky notes, scattered browser tabs, and unindexed spreadsheets to track commitments, the brain is forced into a constant state of low-grade panic.
+          Every ambitious operator, media producer, knowledge worker, and modern entrepreneur eventually encounters an invisible, paralyzing ceiling: the cognitive saturation point. When an operational system relies on fragmented human memory, disorganized sticky notes, scattered browser tabs, and disconnected spreadsheets to track commitments, the subconscious mind is forced into a perpetual state of low-grade crisis.
         </p>
 
         <p>
-          Psychologists and systems engineers describe this as <em>the Zeigarnik Effect in high-velocity environments</em>. The human mind is hardwired to keep uncompleted tasks active in short-term working memory until an authoritative, trusted closure event occurs. When you have twenty open tabs, three loose voice memos, and half-drafted contracts floating across various apps, your prefrontal cortex burns precious glucose continuously refreshing these open loops. You end your workday mentally depleted without having moved the high-leverage needle on your primary objectives.
+          Cognitive psychologists and systems engineers identify this friction as the direct consequence of the <strong>Zeigarnik Effect in high-velocity knowledge environments</strong>. The human brain is biologically hardwired to maintain uncompleted tasks, open negotiations, and unanswered client queries in active, short-term working memory until an authoritative, trusted closure event occurs. When your workflow lacks a deterministic repository, your prefrontal cortex burns finite glucose continuously cycling through these unresolved loops. By early afternoon, mental reserves are depleted, leaving you vulnerable to task avoidance, impulsive distractions, and decision fatigue.
+        </p>
+
+        <h3 class="serif text-lg sm:text-xl font-bold text-[#111110] mt-6 mb-2">The Hidden Tax of Attention Residue &amp; Context Switching</h3>
+        <p>
+          Groundbreaking organizational research by Dr. Sophie Leroy demonstrates that when knowledge workers switch from an unfinished task to a new initiative, a substantial portion of their attention remains fixated on the prior commitment. This phenomenon—termed <em>attention residue</em>—reduces subsequent cognitive bandwidth, slows information processing, and increases error rates by up to 40%. When an operator attempts to manage multi-channel media pipelines, scaling e-commerce logistics, real estate escrows, or executive function workflows without a centralized relational dashboard, attention residue compounds catastrophically with every unfiled tab and stray message.
+        </p>
+
+        <h3 class="serif text-lg sm:text-xl font-bold text-[#111110] mt-6 mb-2">Architectural Fragility &amp; The Cost of Ambiguity</h3>
+        <p>
+          In the specific context of <strong>Information Intake Funnels</strong>, traditional approaches fail because they address superficial symptoms rather than architectural root causes. Adding more reminders to an already overcrowded calendar or adopting colorful to-do list apps only increases notification noise. When tasks lack relational context—such as parent project connections, priority weighting, and real-time status rollups—operators are forced to expend enormous energy merely reconstructing the context of their work before they can take a single productive action.
         </p>
 
         <p>
-          In the specific context of <strong>Information Intake Funnels</strong>, traditional methods fail because they treat symptoms rather than structural dynamics. Adding more reminders to an already overcrowded calendar or adopting colorful to-do list apps only increases notification fatigue. The fundamental root cause is an architectural flaw: the absence of a deterministic, relational taxonomy that maps every raw intake item to its corresponding execution phase and long-term asset repository.
+          Standardizing bookmark capture, voice memo transcription, and PDF ingestion into one clean inbox. Without a structured architectural scaffolding, cognitive debt accumulates like compounding high-interest debt. Every micro-decision—where to save a file, how to tag an invoice, whether an incoming email represents an urgent crisis or a passive distraction—drains willpower. By the time deep, uninterrupted creative focus is required, the operator is already suffering from decision fatigue and settles for superficial administrative busywork.
         </p>
 
         <p>
-          Without this structural scaffolding, cognitive debt accumulates like compounding credit card interest. Every micro-decision—where to save a file, how to tag an invoice, whether an incoming email represents an urgent crisis or a passive distraction—drains finite willpower reserves. By the time deep, uninterrupted creative focus is required, the operator is already suffering from decision fatigue and settles for superficial administrative busywork.
+          Furthermore, traditional productivity models completely disregard biological and operational realities. They assume human beings function as linear robotic execution machines capable of sustaining constant 8-hour focus irrespective of cognitive energy states, dopamine fluctuations, or supplier turnaround realities. To establish enduring operational momentum, we must dismantle this fragile paradigm and reconstruct our workflows around deterministic, antifragile first principles.
         </p>
 
         <!-- SECTION 2: OPERATIONAL FIRST PRINCIPLES -->
@@ -232,39 +261,41 @@
         </h2>
 
         <p>
-          To transcend this systemic failure mode, we must deconstruct information management down to immutable first principles. Whether you are orchestrating ADHD executive function routines, running an institutional Second Brain, coordinating multi-channel creator pipelines, scaling DTC e-commerce logistics, or closing real estate deals, three foundational mental models govern operational success:
+          To transcend chronic operational friction in <strong>Second Brain & Knowledge Architecture</strong>, we must deconstruct workflow management down to immutable first principles. The three foundational mental models detailed below govern high-leverage execution, safeguarding your cognitive reserves while ensuring continuous operational velocity:
         </p>
 
-        <div class="my-6 p-5 rounded-xl border border-[#EAE8E3] bg-[#FFFFFF] space-y-3">
-          <h3 class="serif text-lg font-bold text-[#111110]">Axiom I: The Law of Intake Asymmetry</h3>
-          <p class="text-xs sm:text-sm text-[#52504B] leading-relaxed">
-            The friction required to capture a raw record must approach zero, while the friction required to commit to execution must be deliberately calibrated. If logging a transaction milestone, a task idea, or a research excerpt takes longer than five seconds, the human brain will bypass the system entirely. Conversely, once an item enters your inbox, strict triage rules must prevent low-value busywork from ever advancing into active production sprints.
-          </p>
-        </div>
-
-        <div class="my-6 p-5 rounded-xl border border-[#EAE8E3] bg-[#FFFFFF] space-y-3">
-          <h3 class="serif text-lg font-bold text-[#111110]">Axiom II: Relational Context Supremacy</h3>
-          <p class="text-xs sm:text-sm text-[#52504B] leading-relaxed">
-            An isolated row of data possesses zero operational intelligence. A task described merely as "Review Contract" or "Update Creative" generates anxiety because it lacks relational context. In an intentional architecture, every action row is automatically linked to its parent project database, target revenue stream, responsible stakeholder, and priority tier. The operator never has to ask "Why am I doing this?" because the relational chain is instantly visible.
-          </p>
-        </div>
-
-        <div class="my-6 p-5 rounded-xl border border-[#EAE8E3] bg-[#FFFFFF] space-y-3">
-          <h3 class="serif text-lg font-bold text-[#111110]">Axiom III: Local Memory Sovereignty &amp; Zero Telemetry</h3>
-          <p class="text-xs sm:text-sm text-[#52504B] leading-relaxed">
-            In an era of rampant SaaS subscription lock-in and intrusive server-side data analytics, security and operational speed demand client-side sovereignty. Highly sensitive assets—customer CSVs, raw financial margins, proprietary prompts, audio tracks, and legal disclosures—must be scrubbed, formatted, and analyzed in browser memory without sending private operational payloads to remote cloud servers.
-          </p>
-        </div>
+        
+    <div class="my-6 p-5 rounded-xl border border-[#EAE8E3] bg-[#FFFFFF] space-y-2.5">
+      <h3 class="serif text-base sm:text-lg font-bold text-[#111110]">Axiom I: Progressive Distillation Supremacy</h3>
+      <p class="text-xs sm:text-sm text-[#52504B] leading-relaxed">
+        Information hoarding is the primary pathology of modern knowledge workers. Saving 2,000 unread bookmarks or clipping full web pages into an unindexed database creates the illusion of learning while compounding mental clutter. In an intentional Second Brain, information must pass through progressive distillation: raw capture, highlighted passages, a 3-sentence executive summary, and ultimately integration into an active project or publishable framework.
+      </p>
+    </div>
+    
+    <div class="my-6 p-5 rounded-xl border border-[#EAE8E3] bg-[#FFFFFF] space-y-2.5">
+      <h3 class="serif text-base sm:text-lg font-bold text-[#111110]">Axiom II: Strict PARA Actionability Architecture</h3>
+      <p class="text-xs sm:text-sm text-[#52504B] leading-relaxed">
+        Digital notes must never be organized by where they came from or vague academic subjects; they must be structured strictly by actionability. Following the PARA framework (Projects, Areas, Resources, Archives), every record belongs to a specific horizon of commitment. Projects represent active deliverables with hard deadlines; Areas represent continuous responsibilities; Resources represent topic libraries for future reference; Archives hold completed assets in cold storage.
+      </p>
+    </div>
+    
+    <div class="my-6 p-5 rounded-xl border border-[#EAE8E3] bg-[#FFFFFF] space-y-2.5">
+      <h3 class="serif text-base sm:text-lg font-bold text-[#111110]">Axiom III: Bi-Directional Relational Context Over Hierarchical Folders</h3>
+      <p class="text-xs sm:text-sm text-[#52504B] leading-relaxed">
+        Static folder trees force operators into brittle categorizations that inevitably fracture as projects evolve. A single concept or research note often touches multiple client projects, quarterly goals, and intellectual domains. By replacing folders with bi-directional relational databases and tag taxonomies, a note exists in one authoritative location while being dynamically queried across dozens of contextual project dashboards.
+      </p>
+    </div>
+    
 
         <p>
-          When these three axioms are enforced concurrently, system friction drops precipitously. Instead of fighting your internal psychology with fragile willpower, you build an external operating environment that naturally guides you toward deterministic, focused execution.
+          When these three axioms are enforced concurrently across your daily routine, operational friction drops precipitously. Instead of fighting your internal psychology with fragile willpower, you build an external operating environment that naturally guides you toward deterministic, focused execution.
         </p>
 
         <!-- Mid-Article Visual Break 1: Curated Diagram/Architecture -->
         <figure class="my-10 rounded-2xl overflow-hidden border border-[#EAE8E3] bg-[#F4F3F0]">
-          <img src="https://pixabay.com/get/gaa61d954ece37c3592d488e8d21d5b631cb6d81cf7b1bc4ab380e098dd879ff2cfcdfa8f774b8e4adfed9fd5508375792aaaa3e1e616ad98abbf519872778a0b_1280.jpg" alt="System Architecture and Workflow Diagram for Information Intake Funnels: Second Brain & Knowledge Architecture (Part 11)" class="w-full aspect-[16/10] object-cover">
+          <img src="https://pixabay.com/get/gaa61d954ece37c3592d488e8d21d5b631cb6d81cf7b1bc4ab380e098dd879ff2cfcdfa8f774b8e4adfed9fd5508375792aaaa3e1e616ad98abbf519872778a0b_1280.jpg" alt="System Architecture and Workflow Diagram for Information Intake Funnels: Second Brain & Knowledge Architecture (Part 11)" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1507842229451-7f01be7ff612?auto=format&fit=crop&w=1200&q=80';" class="w-full aspect-[16/10] object-cover">
           <figcaption class="p-3 bg-[#F4F3F0] text-[11px] text-[#76746E] text-center border-t border-[#EAE8E3]">
-            Figure 1: Architectural Workflow Schematic — Mapping deterministic stages and state transitions to prevent operational friction.
+            Figure 1: Architectural Workflow Schematic — Mapping deterministic stages and state transitions to eliminate operational drag in Second Brain & Knowledge Architecture.
           </figcaption>
         </figure>
 
@@ -277,34 +308,56 @@
           Transitioning from chaotic ad-hoc habits to a structured operating framework requires methodical execution. Follow this rigorous 5-stage deployment protocol to implement <strong>Information Intake Funnels</strong> within your workflow:
         </p>
 
-        <h3 class="serif text-xl font-bold text-[#111110] mt-6 mb-2">Stage 1: System Baseline Audit &amp; Friction Deconstruction</h3>
-        <p>
-          Before creating a single new database or template, conduct a cold retrospective audit of your current points of failure. Document every location where tasks and information currently hide: personal email inboxes, native phone notes, browser bookmark bars, desktop folders, and messaging apps. Identify the recurring bottlenecks where hand-offs stall, deadlines slip, or mental anxiety spikes. Quantify the hours wasted searching for unfiled assets each week.
-        </p>
+        
+    <div class="mt-6 mb-8">
+      <h3 class="serif text-lg sm:text-xl font-bold text-[#111110] mb-2">Stage 1: Digital Triage & Clutter Quarantine</h3>
+      <p class="text-xs sm:text-sm text-[#37352F] leading-relaxed">
+        Perform a clean-slate audit across all legacy storage repositories: cloud drives, desktop folders, browser bookmark bars, and note apps. Rather than attempting to file thousands of accumulated legacy documents one by one (a classic trap that drains weeks of willpower), sweep existing notes into a timestamped 'Legacy Archive' folder. Starting from a clean slate preserves energy for building an intentional relational taxonomy.
+      </p>
+    </div>
+    
+    <div class="mt-6 mb-8">
+      <h3 class="serif text-lg sm:text-xl font-bold text-[#111110] mb-2">Stage 2: PARA Database Schema Construction in Notion</h3>
+      <p class="text-xs sm:text-sm text-[#37352F] leading-relaxed">
+        Construct the core four-tier PARA schema inside Notion. Build four foundational databases: (1) Master Projects, (2) Areas of Focus, (3) Resource Vaults, and (4) Cold Archives. Establish bi-directional relations between Projects and Resources, linking every active sprint to its supporting documentation, research notes, and creative swipe files.
+      </p>
+    </div>
+    
+    <div class="mt-6 mb-8">
+      <h3 class="serif text-lg sm:text-xl font-bold text-[#111110] mb-2">Stage 3: Frictionless Multimodal Intake Funnel</h3>
+      <p class="text-xs sm:text-sm text-[#37352F] leading-relaxed">
+        Deploy unified intake pipelines for bookmarks, research excerpts, voice memos, and PDF whitepapers. Connect client-side sanitizers—such as the Notion CSV Import Sanitizer—to format and scrub external data before importing. Ensure that all incoming records land in a centralized 'Intake Queue' database before being categorized or linked to parent projects.
+      </p>
+    </div>
+    
+    <div class="mt-6 mb-8">
+      <h3 class="serif text-lg sm:text-xl font-bold text-[#111110] mb-2">Stage 4: Notion Formulas 2.0 Velocity Rollups & Visual Dashboards</h3>
+      <p class="text-xs sm:text-sm text-[#37352F] leading-relaxed">
+        Leverage modern Notion Formulas 2.0 dot notation, lambda maps, and filter conditions to calculate project progress and knowledge compounding automatically. Configure progress bars that aggregate finished tasks across sub-projects, highlight stalled deliverables that have had zero activity in 14 days, and generate high-altitude dashboard summaries for executive reviews.
+      </p>
+    </div>
+    
+    <div class="mt-6 mb-8">
+      <h3 class="serif text-lg sm:text-xl font-bold text-[#111110] mb-2">Stage 5: Cadenced Sunday Review & Progressive Summarization Cadence</h3>
+      <p class="text-xs sm:text-sm text-[#37352F] leading-relaxed">
+        Institutionalize a non-negotiable 30-minute Sunday review operating rhythm. During this review, process the raw intake inbox to zero, extract 3-sentence executive summaries from read literature, review quarterly OKRs against project velocity, and cleanly deprecate finished sprints into cold storage archives to keep active databases lightweight and responsive.
+      </p>
+    </div>
+    
 
-        <h3 class="serif text-xl font-bold text-[#111110] mt-6 mb-2">Stage 2: Taxonomy &amp; Relational Schema Calibration</h3>
+        <h3 class="serif text-lg sm:text-xl font-bold text-[#111110] mt-8 mb-3">Antifragile Safeguards: Overcoming Common Execution Failure Modes</h3>
         <p>
-          Construct the core relational data schema inside Notion or your database engine of choice. Avoid the trap of creating dozens of disparate, disconnected tables. Instead, build a clean three-tier hierarchy: (1) Master Objectives &amp; Pipelines, (2) Active Operational Sprints &amp; Deliverables, and (3) The Centralized Knowledge &amp; Media Vault. Establish two-way relations between these databases so that updating a single sprint item automatically recalibrates project progress rollups.
+          Even the most meticulously architected systems can suffer implementation drift if common human pitfalls are unaddressed. In our field deployments across hundreds of high-performing operators, three distinct failure modes recur with predictable regularity:
         </p>
-
-        <h3 class="serif text-xl font-bold text-[#111110] mt-6 mb-2">Stage 3: Frictionless Record Intake &amp; Protocol Enforcement</h3>
-        <p>
-          Deploy dedicated quick-capture views across your devices. For mobile capture, configure an intake widget that opens directly to an unlinked capture inbox. Enforce the strict <em>5-Second Rule</em>: logging a thought, transaction note, or media hook must require no more than two taps and zero categorization during the moment of capture. Triage and tag assignment are reserved for scheduled review intervals, never during the raw intake burst.
-        </p>
-
-        <h3 class="serif text-xl font-bold text-[#111110] mt-6 mb-2">Stage 4: Automated Verification &amp; Rollup Velocity</h3>
-        <p>
-          Implement modern Notion Formulas 2.0 rollups, dot notation, and condition filters to calculate velocity metrics dynamically. Rather than manually checking whether an escrow condition has expired, an ad campaign has hit its break-even ROAS threshold, or an ADHD sprint has exceeded its timebox, configure visual indicator flags (such as green, yellow, and red status pills) that alert you to deviations automatically.
-        </p>
-
-        <h3 class="serif text-xl font-bold text-[#111110] mt-6 mb-2">Stage 5: Cadenced Retrospective &amp; Asynchronous Archival</h3>
-        <p>
-          No system survives without scheduled maintenance. Institute a non-negotiable 20-minute daily balance sweep and a 30-minute weekly Sunday retrospective. During these sweeps, clear the temporary intake inbox to zero, migrate finished tasks into cold storage archives, evaluate biological energy correlations, and lock in tomorrow's top three needle-movers. Stale items that have lingered for over 14 days without action must be ruthlessly deleted or moved to an incubation sandbox.
-        </p>
+        <ul class="space-y-2 text-xs sm:text-sm text-[#37352F] my-4 pl-4 list-disc">
+          <li><strong>The Over-Engineering Trap:</strong> Spending weeks constructing elaborate, multi-tier relation webs and esoteric Notion formulas before proving basic daily intake habits. Countermeasure: deploy the standardized Launchist production schema immediately and freeze structural customizations for the first 30 days.</li>
+          <li><strong>Tagging Paralysis During Ingestion:</strong> Pausing during high-velocity creative or operational moments to debate whether an item is a Resource or an Area. Countermeasure: enforce strict intake asymmetry—all captures land in an unlinked inbox with zero mandatory properties.</li>
+          <li><strong>The Abandonment Spiral After Missed Cadences:</strong> Experiencing a disruptive travel week or intense crisis that causes missed daily sweeps, triggering shame and complete system abandonment. Countermeasure: utilize the non-punitive Emergency Reboot view that clears stale backlog items to cold storage in 10 minutes without guilt.</li>
+        </ul>
 
         <!-- Mid-Article Visual Break 2: Tactical Workspace -->
         <figure class="my-10 rounded-2xl overflow-hidden border border-[#EAE8E3] bg-[#F4F3F0]">
-          <img src="https://pixabay.com/get/gcfbd70fe549f540ed3e49a3820aab73199edc728d80f7691881682a764eb3e3ad712148f52701c0993f2be23f5877f1976b2031979f03d0a5821d6da20680384_1280.jpg" alt="Tactical Workspace Environment for Information Intake Funnels: Second Brain & Knowledge Architecture (Part 11)" class="w-full aspect-[16/10] object-cover">
+          <img src="https://pixabay.com/get/gcfbd70fe549f540ed3e49a3820aab73199edc728d80f7691881682a764eb3e3ad712148f52701c0993f2be23f5877f1976b2031979f03d0a5821d6da20680384_1280.jpg" alt="Tactical Workspace Environment for Information Intake Funnels: Second Brain & Knowledge Architecture (Part 11)" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=1200&q=80';" class="w-full aspect-[16/10] object-cover">
           <figcaption class="p-3 bg-[#F4F3F0] text-[11px] text-[#76746E] text-center border-t border-[#EAE8E3]">
             Figure 2: Tactical Workspace Environment — High-contrast spatial ergonomics configured for focused, zero-distraction execution.
           </figcaption>
@@ -331,33 +384,33 @@
             <tbody>
               
       <tr class="border-b border-[#EAE8E3] hover:bg-[#F4F3F0]/40 transition">
-        <td class="py-3.5 px-4 font-semibold text-xs text-[#111110] bg-[#FBFBF9]/60">Information Intake Protocol</td>
-        <td class="py-3.5 px-4 text-xs text-[#76746E] leading-relaxed">Disjointed ephemeral capture across sticky notes, browser tabs, and messaging drafts with zero standardized taxonomy.</td>
-        <td class="py-3.5 px-4 text-xs text-[#1A362B] font-medium leading-relaxed bg-[#1A362B]/5">Centralized low-friction intake funnel logging into relational inbox databases within 5 seconds with automated tagging.</td>
+        <td class="py-3.5 px-4 font-semibold text-xs text-[#111110] bg-[#FBFBF9]/60">Data Organization Philosophy</td>
+        <td class="py-3.5 px-4 text-xs text-[#76746E] leading-relaxed">Deep, rigid nested folders that hide critical documents beneath 5 layers of sub-directories.</td>
+        <td class="py-3.5 px-4 text-xs text-[#1A362B] font-medium leading-relaxed bg-[#1A362B]/5">Dynamic relational PARA databases connecting daily actions directly to quarterly goals.</td>
       </tr>
     
       <tr class="border-b border-[#EAE8E3] hover:bg-[#F4F3F0]/40 transition">
-        <td class="py-3.5 px-4 font-semibold text-xs text-[#111110] bg-[#FBFBF9]/60">Relational Data Architecture</td>
-        <td class="py-3.5 px-4 text-xs text-[#76746E] leading-relaxed">Flat, isolated spreadsheets or disparate note silos with duplicate records and zero bi-directional contextual links.</td>
-        <td class="py-3.5 px-4 text-xs text-[#1A362B] font-medium leading-relaxed bg-[#1A362B]/5">Fully normalized relational database schema linking daily action sprints directly to high-altitude quarterly objectives.</td>
+        <td class="py-3.5 px-4 font-semibold text-xs text-[#111110] bg-[#FBFBF9]/60">Information Intake Behavior</td>
+        <td class="py-3.5 px-4 text-xs text-[#76746E] leading-relaxed">Hoarding thousands of unread browser bookmarks and PDF files with zero synthesis.</td>
+        <td class="py-3.5 px-4 text-xs text-[#1A362B] font-medium leading-relaxed bg-[#1A362B]/5">Rigorous progressive distillation yielding atomic, 3-sentence actionable executive notes.</td>
       </tr>
     
       <tr class="border-b border-[#EAE8E3] hover:bg-[#F4F3F0]/40 transition">
-        <td class="py-3.5 px-4 font-semibold text-xs text-[#111110] bg-[#FBFBF9]/60">Cognitive Load & Working Memory</td>
-        <td class="py-3.5 px-4 text-xs text-[#76746E] leading-relaxed">Severe working memory exhaustion caused by holding unresolved mental loops and remembering where documents live.</td>
-        <td class="py-3.5 px-4 text-xs text-[#1A362B] font-medium leading-relaxed bg-[#1A362B]/5">Complete externalization of short-term memory onto high-contrast visual boards, reducing cognitive drag to near zero.</td>
+        <td class="py-3.5 px-4 font-semibold text-xs text-[#111110] bg-[#FBFBF9]/60">Project & Life Visibility</td>
+        <td class="py-3.5 px-4 text-xs text-[#76746E] leading-relaxed">Fragmented tracking across Apple Notes, paper pads, Google Docs, and disparate to-do apps.</td>
+        <td class="py-3.5 px-4 text-xs text-[#1A362B] font-medium leading-relaxed bg-[#1A362B]/5">Unified Master Project Dashboard displaying high-altitude executive metrics relationally.</td>
       </tr>
     
       <tr class="border-b border-[#EAE8E3] hover:bg-[#F4F3F0]/40 transition">
-        <td class="py-3.5 px-4 font-semibold text-xs text-[#111110] bg-[#FBFBF9]/60">Performance Metrics & Velocity</td>
-        <td class="py-3.5 px-4 text-xs text-[#76746E] leading-relaxed">Subjective gut feelings and arbitrary checklists that mask systemic bottlenecks, delayed delivery, and lost revenue.</td>
-        <td class="py-3.5 px-4 text-xs text-[#1A362B] font-medium leading-relaxed bg-[#1A362B]/5">Deterministic rollup metrics, automated progress velocity indicators, and audit-ready execution ledgers.</td>
+        <td class="py-3.5 px-4 font-semibold text-xs text-[#111110] bg-[#FBFBF9]/60">Workspace Maintenance Cadence</td>
+        <td class="py-3.5 px-4 text-xs text-[#76746E] leading-relaxed">Chaotic, infrequent cleanups driven by panic when cloud storage quotas are exceeded.</td>
+        <td class="py-3.5 px-4 text-xs text-[#1A362B] font-medium leading-relaxed bg-[#1A362B]/5">Deterministic 30-minute Sunday reset maintaining perpetual zero-drag operational clarity.</td>
       </tr>
     
       <tr class="border-b border-[#EAE8E3] hover:bg-[#F4F3F0]/40 transition">
-        <td class="py-3.5 px-4 font-semibold text-xs text-[#111110] bg-[#FBFBF9]/60">System Recovery & Scalability</td>
-        <td class="py-3.5 px-4 text-xs text-[#76746E] leading-relaxed">Catastrophic collapse upon missing a single day or deadline; complete abandonment followed by repeating chaotic cycles.</td>
-        <td class="py-3.5 px-4 text-xs text-[#1A362B] font-medium leading-relaxed bg-[#1A362B]/5">Resilient, antifragile architecture with automated reboot protocols, rolling capacity buffers, and zero-guilt resets.</td>
+        <td class="py-3.5 px-4 font-semibold text-xs text-[#111110] bg-[#FBFBF9]/60">Knowledge Compounding & Reuse</td>
+        <td class="py-3.5 px-4 text-xs text-[#76746E] leading-relaxed">Decaying static notes that are forgotten immediately and never referenced in active work.</td>
+        <td class="py-3.5 px-4 text-xs text-[#1A362B] font-medium leading-relaxed bg-[#1A362B]/5">Interconnected Zettelkasten knowledge vault that accelerates future project delivery.</td>
       </tr>
     
             </tbody>
@@ -365,7 +418,7 @@
         </div>
 
         <p>
-          As highlighted in the matrix, adopting a structured architecture is not merely about aesthetic neatness; it is an economic and cognitive multiplier. By removing subjective friction from every operational transition, you reclaim hundreds of hours of focused execution each quarter.
+          As highlighted in the matrix, adopting a structured architecture is not merely about aesthetic neatness; it is an economic and cognitive multiplier. By removing subjective friction from every operational transition, you eliminate hundreds of hours of administrative drag each quarter, liberating cognitive capital for high-leverage strategic initiatives.
         </p>
 
         <!-- SECTION 5: ZERO-SERVER TOOL SANDBOX -->
@@ -386,7 +439,7 @@
             <span class="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-[#1A362B]/10 text-[#1A362B]">100% CLIENT RAM</span>
           </div>
           <h3 class="serif text-xl sm:text-2xl font-bold text-[#111110] mb-2">Notion CSV Import Sanitizer</h3>
-          <p class="text-xs sm:text-sm text-[#76746E] mb-5 leading-relaxed">Sanitize UTF-8 characters, format ISO 8601 dates, and shield unescaped commas for clean Notion imports. All calculations, media processing, or binary parsing run locally inside your browser memory. Your data never touches a remote cloud server.</p>
+          <p class="text-xs sm:text-sm text-[#76746E] mb-5 leading-relaxed">Sanitize UTF-8 characters, format ISO 8601 dates, and shield unescaped commas for clean Notion imports. All calculations, media processing, or binary parsing run locally inside your browser memory. Your sensitive files, financial margins, and confidential prompts never touch a remote cloud server.</p>
           <div class="flex flex-col sm:flex-row gap-3">
             <a href="https://greentools-dev.github.io/notion-csv-cleaner/" target="_blank" class="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-[#1A362B] text-white font-bold text-xs hover:bg-[#111110] transition shadow-xs">
               Launch Utility Online <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
@@ -452,49 +505,49 @@
           
         <details class="group rounded-xl border border-[#EAE8E3] bg-[#FFFFFF] p-5 transition [&_summary::-webkit-details-marker]:hidden">
           <summary class="flex cursor-pointer items-center justify-between gap-1.5 text-[#111110]">
-            <h4 class="text-sm font-bold tracking-tight pr-4">1. How does this operational architecture integrate with mobile devices and on-the-go capture?</h4>
+            <h4 class="text-sm font-bold tracking-tight pr-4">1. How does this Second Brain workspace differ from traditional PARA or Zettelkasten templates?</h4>
             <div class="white-circle shrink-0 rounded-full bg-[#F4F3F0] p-1.5 text-[#111110] transition group-open:-rotate-180">
               <i data-lucide="chevron-down" class="w-4 h-4"></i>
             </div>
           </summary>
           <p class="mt-4 text-xs sm:text-sm leading-relaxed text-[#76746E] border-t border-[#EAE8E3] pt-4">
-            The Second Brain & 2027 Life OS is designed with a dedicated mobile-first intake cockpit. Using Notion iOS/Android widgets and quick-capture shortcuts, you can record fleeting ideas, transaction milestones, or urgent action items in under 5 seconds without waiting for heavy desktop dashboards to load. The system processes and reconciles these entries asynchronously upon your next scheduled desktop sweep.
+            Standard templates frequently suffer from bloated complexity, fragile formulas, and sluggish loading times. The Second Brain & 2027 Life OS is architected using modern Notion Formulas 2.0 rollups, normalized relational databases, and minimalist page structures. It balances high-altitude quarterly vision mapping with daily execution cockpits, eliminating the cognitive friction that leads to system abandonment.
           </p>
         </details>
         
         <details class="group rounded-xl border border-[#EAE8E3] bg-[#FFFFFF] p-5 transition [&_summary::-webkit-details-marker]:hidden">
           <summary class="flex cursor-pointer items-center justify-between gap-1.5 text-[#111110]">
-            <h4 class="text-sm font-bold tracking-tight pr-4">2. What is the primary failure mode operators experience when implementing this protocol, and how do I avoid it?</h4>
+            <h4 class="text-sm font-bold tracking-tight pr-4">2. Will my Notion workspace slow down as my knowledge base grows to thousands of notes?</h4>
             <div class="white-circle shrink-0 rounded-full bg-[#F4F3F0] p-1.5 text-[#111110] transition group-open:-rotate-180">
               <i data-lucide="chevron-down" class="w-4 h-4"></i>
             </div>
           </summary>
           <p class="mt-4 text-xs sm:text-sm leading-relaxed text-[#76746E] border-t border-[#EAE8E3] pt-4">
-            The most common failure mode is over-engineering: attempting to build complex multi-layered formula relations and rigid daily schedules before establishing consistent baseline capture habits. To avoid this, deploy the out-of-the-box pre-configured architecture, adhere strictly to the 5-Stage Implementation Protocol outlined in this guide, and resist adding custom complexity until the system has operated reliably for at least 30 consecutive days.
+            Sluggish Notion performance is almost always caused by deeply nested relations, un-indexed rollups, and un-archived historical records. This operating system solves performance bottlenecks by isolating active sprints from the cold storage archive and leveraging lightweight view filters, ensuring sub-second rendering speeds even as your repository expands over years of use.
           </p>
         </details>
         
         <details class="group rounded-xl border border-[#EAE8E3] bg-[#FFFFFF] p-5 transition [&_summary::-webkit-details-marker]:hidden">
           <summary class="flex cursor-pointer items-center justify-between gap-1.5 text-[#111110]">
-            <h4 class="text-sm font-bold tracking-tight pr-4">3. How much dedicated time is required to maintain and audit this system each week?</h4>
+            <h4 class="text-sm font-bold tracking-tight pr-4">3. How do I migrate my legacy notes from Evernote, Apple Notes, or Obsidian into this system?</h4>
             <div class="white-circle shrink-0 rounded-full bg-[#F4F3F0] p-1.5 text-[#111110] transition group-open:-rotate-180">
               <i data-lucide="chevron-down" class="w-4 h-4"></i>
             </div>
           </summary>
           <p class="mt-4 text-xs sm:text-sm leading-relaxed text-[#76746E] border-t border-[#EAE8E3] pt-4">
-            The system is engineered to consume less than 20 minutes per day in tactical processing, combined with a single 30-minute Sunday retrospective sweep. By automating rollup calculations, status filters, and historical deprecation, the operational overhead is reduced by over 80% compared to manual spreadsheet maintenance or fragmented project management software.
+            Avoid manual copy-pasting. Export your existing notes to CSV or markdown, process the files through our zero-server Notion CSV Cleaner to format UTF-8 characters and dates, and import the database into an isolated 'Legacy Vault'. From there, migrate and synthesize only the active assets that directly support your current quarterly objectives.
           </p>
         </details>
         
         <details class="group rounded-xl border border-[#EAE8E3] bg-[#FFFFFF] p-5 transition [&_summary::-webkit-details-marker]:hidden">
           <summary class="flex cursor-pointer items-center justify-between gap-1.5 text-[#111110]">
-            <h4 class="text-sm font-bold tracking-tight pr-4">4. Can this architecture scale from a solo operator to a multi-member collaborative team?</h4>
+            <h4 class="text-sm font-bold tracking-tight pr-4">4. How much dedicated time is required to maintain this architecture on an ongoing basis?</h4>
             <div class="white-circle shrink-0 rounded-full bg-[#F4F3F0] p-1.5 text-[#111110] transition group-open:-rotate-180">
               <i data-lucide="chevron-down" class="w-4 h-4"></i>
             </div>
           </summary>
           <p class="mt-4 text-xs sm:text-sm leading-relaxed text-[#76746E] border-t border-[#EAE8E3] pt-4">
-            Yes. The underlying relational schema in Second Brain & 2027 Life OS decouples private administrative workspaces from public client/collaborator views. You can safely invite contractors, clients, or team members to isolated portal boards without exposing master financial ledgers, private journals, or broader company strategy archives.
+            Routine daily capture requires under two minutes total, thanks to quick-capture shortcuts. The primary maintenance investment is the 30-minute Sunday review cadence, where you triage raw inbox items, distill reading notes, and review project progress rollups. By automating velocity calculations, administrative overhead is reduced by over 80%.
           </p>
         </details>
         
@@ -522,7 +575,7 @@
             </div>
           </div>
         </div>
-
+    
       </article>
     </div>
   </main>
@@ -557,18 +610,25 @@
       if (bar) bar.style.width = scrolled + '%';
     });
 
-    // TOC Active Scrollspy
+    // Viewport-based Active Section Scrollspy
     const sections = document.querySelectorAll('article h2[id]');
     const tocLinks = document.querySelectorAll('#toc-nav a');
 
-    window.addEventListener('scroll', () => {
+    function updateScrollspy() {
       let currentId = '';
       sections.forEach(section => {
-        const sectionTop = section.offsetTop - 120;
-        if (window.pageYOffset >= sectionTop) {
+        const rect = section.getBoundingClientRect();
+        if (rect.top <= 140) {
           currentId = section.getAttribute('id');
         }
       });
+
+      if (!currentId && sections.length > 0) {
+        const firstRect = sections[0].getBoundingClientRect();
+        if (firstRect.top <= window.innerHeight * 0.75) {
+          currentId = sections[0].getAttribute('id');
+        }
+      }
 
       tocLinks.forEach(link => {
         link.classList.remove('toc-active');
@@ -576,7 +636,11 @@
           link.classList.add('toc-active');
         }
       });
-    });
+    }
+
+    window.addEventListener('scroll', updateScrollspy);
+    window.addEventListener('resize', updateScrollspy);
+    updateScrollspy();
 
     lucide.createIcons();
   </script>
